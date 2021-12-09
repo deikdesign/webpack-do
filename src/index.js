@@ -154,5 +154,5 @@ function createList(name) {
   const newIndex = lists.length + dateString;
   return { description: name, completed: false, index: newIndex };
 }
-
+/* */
 render();
