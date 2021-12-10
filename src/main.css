@@ -6,11 +6,9 @@ body {
   background-color: var(--clr-primary);
   color: var(--clr-light);
   display: grid;
-  
 }
 
 .title {
-
   text-align: center;
   font-size: calc(7vw + 2rem);
   font-weight: 900;
@@ -20,16 +18,12 @@ body {
 }
 
 .all-tasks {
-
-  width: 2000px;
+  width: auto;
   height: auto;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: auto;
-  height: auto;
   background-color: rgb(255, 255, 255);
-  
 }
 
 .header {
@@ -37,7 +31,6 @@ body {
   width: 50%;
   height: auto;
   padding: 100px;
- 
 }
 
 .head1 {
@@ -49,10 +42,6 @@ body {
   justify-content: center;
 }
 
-
-
-
-
 .delete-stuff {
   display: flex;
   flex-direction: row;
@@ -60,10 +49,8 @@ body {
 }
 
 .fa-sync {
-  margin-top: 15px ;
-
+  margin-top: 15px;
 }
-
 
 .task-list {
   font-size: 1.2rem;
@@ -84,7 +71,8 @@ form {
   display: flex;
 }
 
-ul, li {
+ul,
+li {
   list-style-type: none;
 }
 
@@ -92,18 +80,15 @@ ul li:nth-child(odd) {
   background: #f9f9f9;
 }
 
-
 ul li:hover {
   background: rgb(221, 221, 221);
 }
-
 
 ul li.check1 {
   background: rgb(126, 124, 124);
   color: #fff;
   text-decoration: line-through;
 }
-
 
 ul li.check1::before {
   content: '';
