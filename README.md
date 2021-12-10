@@ -1,4 +1,4 @@
-# HTML & JavaScript - Awesome Books
+# HTML & JavaScript - Today's to do
 
 My to do list is an application which you can add and highlight a list of task that you want to finish. You can add and remove tasks by selecting them and after click on delete list.
 
